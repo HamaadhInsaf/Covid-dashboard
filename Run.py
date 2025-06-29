@@ -11,7 +11,7 @@ country = st.sidebar.selectbox('Pick up a country', countries) #Dropdown
 days = st.sidebar.slider('days', min_value = 50, max_value = 100, step = 1) #Slider
 display_mode = st.sidebar.selectbox('Pick data types', display_modes) #Select display mode
 Refresh = False
-if st.button("Refresh if error occurs"):
+if st.button("Click if error occurs"):
     Refresh = True
 
 #Request
